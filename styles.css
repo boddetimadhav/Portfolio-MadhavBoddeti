@@ -22,14 +22,19 @@ margin: auto;
 .primary-link{
     background-color:black;
     (--primary-color);
-    border-radius:0.5rem;
+    border-radius:2rem;
     color:white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
 
 }
 .secondary-link{
     color:black;
-    border-radius:0.5rem;
+    border-radius:2rem;
     border:1px black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+
   
 
 }
@@ -95,4 +100,11 @@ margin: auto;
     background-color: white;
     text-align: center;
     padding: 3rem;
+}
+.team{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  text-align: center;
+     
 }
